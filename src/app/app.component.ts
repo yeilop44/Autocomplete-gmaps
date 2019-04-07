@@ -50,12 +50,12 @@ export class AppComponent implements OnInit {
       console.log(places[0].formatted_address);
       console.log(bounds);
 
-     /*for ( i = 0 ;  place = places[i]; i++) {
+     for ( i = 0 ;  place = places[i]; i++) {
         bounds.extend(place.geometry.location);
         marker.setPosition(place.geometry.location);
       }
       map.fitBounds(bounds);
-      map.setZoom(14);  */
+      map.setZoom(14);  
 
     });
 
